@@ -1,0 +1,11 @@
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\bin\Debug\net8.0\Bulky.Utility.deps.json
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\bin\Debug\net8.0\Bulky.Utility.dll
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\bin\Debug\net8.0\Bulky.Utility.pdb
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utility.AssemblyInfoInputs.cache
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utility.AssemblyInfo.cs
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utility.csproj.CoreCompileInputs.cache
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utility.dll
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\obj\Debug\net8.0\refint\Bulky.Utility.dll
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utility.pdb
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Utilities\obj\Debug\net8.0\ref\Bulky.Utility.dll

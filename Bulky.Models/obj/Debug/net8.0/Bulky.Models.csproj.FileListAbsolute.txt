@@ -9,3 +9,4 @@ D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Models\obj\Debug\net8.0\Bulk
 D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Models\obj\Debug\net8.0\refint\Bulky.Models.dll
 D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Models\obj\Debug\net8.0\Bulky.Models.pdb
 D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Models\obj\Debug\net8.0\ref\Bulky.Models.dll
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\Bulky.Models\obj\Debug\net8.0\Bulky.Models.sourcelink.json

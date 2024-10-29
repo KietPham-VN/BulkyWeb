@@ -17,3 +17,4 @@ D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\BulkyDataAccess\obj\Debug\net8.0\r
 D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\BulkyDataAccess\obj\Debug\net8.0\Bulky.DataAccess.pdb
 D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\BulkyDataAccess\obj\Debug\net8.0\Bulky.DataAccess.genruntimeconfig.cache
 D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\BulkyDataAccess\obj\Debug\net8.0\ref\Bulky.DataAccess.dll
+D:\LearningMaterial\MyOwnCarrerPath\ASPdotNET\BulkyDataAccess\obj\Debug\net8.0\Bulky.DataAccess.sourcelink.json

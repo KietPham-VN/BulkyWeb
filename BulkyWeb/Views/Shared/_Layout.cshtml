@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="~/BulkyWeb.styles.css" asp-append-version="true" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+	<link href="//cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -36,7 +37,9 @@
 								<li class="nav-item">
 									<a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
 								</li>
-
+								<li class="nav-item">
+									<a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
+								</li>
 							</ul>
 						</li>
 					</ul>
@@ -61,6 +64,8 @@
 	<script src="~/lib/jquery/dist/jquery.min.js"></script>
 	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="~/js/site.js" asp-append-version="true"></script>
+	<script src="https://cdn.tiny.cloud/1/5qa7bq0h4lkzarg3b8w1bt98hgg4qilu1w9w0ujgg9ppwu7q/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+	<script src="//cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
 	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

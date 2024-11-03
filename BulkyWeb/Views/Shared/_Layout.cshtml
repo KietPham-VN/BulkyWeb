@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>@ViewData["Title"] - BulkyWeb</title>
+	<title>@ViewData["Title"]BulkyWeb</title>
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/BulkyWeb.styles.css" asp-append-version="true" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
-	<link href="//cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+
 </head>
 <body>
 	<header>
@@ -23,20 +24,22 @@
 				<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
 					<ul class="navbar-nav flex-grow-1">
 						<li class="nav-item">
-							<a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+							<a class="nav-link " asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a>
 						</li>
-						
 						<li class="nav-item">
-							<a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Privacy">Privacy</a>
+							<a class="nav-link " asp-area="Customer" asp-controller="Home" asp-action="Privacy">Privacy</a>
 						</li>
+
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Content Management
+								Content management
 							</a>
 							<ul class="dropdown-menu">
 								<li class="nav-item">
 									<a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
 								</li>
+
+								<li><hr class="dropdown-divider"></li>
 								<li class="nav-item">
 									<a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
 								</li>
@@ -54,18 +57,20 @@
 		</main>
 	</div>
 
-	<footer class="border-top bg-primary footer text-muted">
-		
-		<div class=" text-center">
-			Made with <i class="bi bi-heart-fill"></i> by Kiet
-			&copy; 2024 - BulkyWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+	<footer class="border-top footer bg-primary text-muted">
+		<div class="text-center text-info">
+			Made with <i class="bi bi-bookmark-heart-fill"></i> by KietPA
 		</div>
 	</footer>
 	<script src="~/lib/jquery/dist/jquery.min.js"></script>
 	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="~/js/site.js" asp-append-version="true"></script>
-	<script src="https://cdn.tiny.cloud/1/5qa7bq0h4lkzarg3b8w1bt98hgg4qilu1w9w0ujgg9ppwu7q/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
-	<script src="//cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+	<script src="https://cdn.tiny.cloud/1/vtk176quc1jvlbvsymfqb5zcpt21wzct8sing4ywqp234p1g/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+
+
+
 	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
